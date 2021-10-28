@@ -1,0 +1,44 @@
+body {
+  background-image : url("11.jpg");
+  background-repeat : repeat;
+  margin: 25px 25px 25px 25px;
+  border-style: dotted;
+}
+h1{
+	color : red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80px;
+}
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+figure img{
+	width : 100%;
+}
+figcaption{
+	color : red;
+	padding : 50px;
+	text-align : center;
+	font-size : 4em;
+	font-weight : bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+figure{
+	border : 2px solid gray;
+	padding : 10px;
+	width : 800px;
+	border-radius : 10px;
+	box-shadow : 5px 5px 5px gray;
+	transform : rotate(0deg);
+	transition : transform 0.75s;
+	margin-left: auto;
+    margin-right: auto;
+	background-color: white;
+}
+img {
+  border-radius: 8px;
+}
+figure:hover{
+	transform : rotate(-7deg);
+}
