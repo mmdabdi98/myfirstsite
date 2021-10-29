@@ -15,6 +15,7 @@ p{
 }
 figure img{
 	width : 100%;
+	max-width : 100%;
 }
 figcaption{
 	color : red;
@@ -35,6 +36,7 @@ figure{
 	margin-left: auto;
     margin-right: auto;
 	background-color: white;
+	max-width : 100%;
 }
 img {
   border-radius: 8px;
